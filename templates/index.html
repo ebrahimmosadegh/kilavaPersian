@@ -1,0 +1,282 @@
+{% extends 'shared/_MainLayout.html' %}
+{% load static %}
+{% load render_partial %}
+
+{% block title %}Kilava | {{ setting.title_site }}{% endblock %}
+{% block meta_seo %}
+    <meta name="description" content="{{ setting.tag_description }}"/>
+    <meta name="keywords" content="{{ setting.tag_keywords }}">
+    <meta property="og:title" content="{{ setting.title_site }}">
+    <meta property="og:description" content="{{ setting.tag_description }}">
+    <meta property="og:type" content="Experience">
+    <meta property="og:url" content="{{ setting.link_site }}">
+    <meta property="og:image" content="{% static 'img/logo-video.png' %}">
+{% endblock %}
+{% block content %}
+
+<section class="hero-wrap style3 bg-f hero-bg-1">
+    <div class="overlay bg-vulcan op-9"></div>
+    <div class="hero-slider-one swiper-container">
+    <div class="swiper-wrapper">
+        
+        <div class="swiper-slide">
+            <div class="hero-slider-item">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="hero-content">
+                                <span>چه کاری ما انجام میدهیم</span>
+                                <h1>خدمات مهندسی</h1>
+                                <p>sad adadadeed </p>
+                                <div class="hero-btn">
+                                    <a href="{% url 'engineering' %}" class="btn style1">سرویس ما</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="hero-img">
+                                <img class="hero-slider-shape" src="/media/home/slider/hero-shape-10.png" alt="Image">
+                                <img class="hero-slider-img" src="/media/home/slider/pumps.png" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="hero-slider-item">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="hero-content">
+                                <span>WHAT WE DO</span>
+                                <h1>LIFE SCIENCE</h1>
+                                <p>NEXT RISE’s life sciences securities team combines in-depth knowledge of the financial sector with a scientific background and business experience in life sciences and healthcare.</p>
+                                <div class="hero-btn">
+                                    <a href="services-one.html" class="btn style1">Our Services</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="hero-img">
+                                <img class="hero-slider-shape" src="/media/home/slider/hero-shape-10.png" alt="Image">
+                                <img class="hero-slider-img" src="/media/home/slider/chemicals.png" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="swiper-slide">
+            <div class="hero-slider-item">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="hero-content">
+                                <span>WHAT WE DO</span>
+                                <h1>COSMETICS & AESTHETICS</h1>
+                                <p>
+                                    
+                                </p>
+                            <div class="hero-btn">
+                                <a href="services-one.html" class="btn style1">Our Services</a>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="hero-img">
+                                 <img class="hero-slider-shape" src="/media/home/slider/hero-shape-10.png" alt="Image">
+                                <img class="hero-slider-img" src="/media/home/slider/cosmetic.png" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hero-slide-prev slider-btn style2"><i class="flaticon-left-arrow-1"></i></div>
+    <div class="hero-slide-next slider-btn style2"><i class="flaticon-next"></i></div>
+    </div>
+    </section>
+    <section class="about-wrap style3 pb-100">
+    <div class="container">
+    <div class="row gx-5 align-items-center">
+    <div class="col-lg-6">
+    <div class="about-img-wrap">
+    <div class="about-img-one">
+    <div class="about-img bg-f about-bg-3"></div>
+    </div>
+    <div class="about-img-two">
+    <div class="about-img-text">
+    <p style="color:#CDA349;">65+<span style="color:#14365B;"> متخصص</span></p>
+    </div>
+    <div class="about-img bg-f about-bg-4"></div>
+    <div class="about-img-text">
+    <p style="color:#CDA349;">150+<span style="color:#14365B;"> مشتری</span> </p>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="col-lg-6">
+     <div class="about-content">
+    <div class="content-title style1">
+    <span>دیدگاه ما</span>
+    <h2>به شرکت مهندسی کیلاوا خوش آمدید</h2>
+    <p class="mt-20 mb-10">
+        در کیلاوا، با افتخار در تامین قطعات برای صنایع، از جمله صنایع نفت، گاز، پتروشیمی و بخش های دیگر صنعت مشغول به فعالیت هستیم.
+        تامین همه قطعات از اتحادیه اروپا و بالاخص از کشور آلمان خواهد بود.
+        خدمات ما همچنین فرآیندهای دقیق اورهال نیروگاهی را شامل میشود، تضمین میکنیم که تجهیزات و کارخانه های
+        صنعتی شما با بهره وری بیشتری عمل کنند. از تعمیر دقیق توربین ها، از بازرسی اجزا و تعویض قطعات فرسوده گرفته تا
+        بازسازی جامع کارخانه های صنعتی ، ما بر روی افزایش کارایی، بروزرسانی فناوری و رعایت آخرین استانداردهای صنعتی تمرکز داریم.
+        همه موارد بالا با استفاده از نیروهای متخصص و کارشناسان زبده آلمانی انجام خواهد شد.
+
+        اطمینان از کیفیت، اولویت اصلی ما در طول فرآیندهای تعمیر و بازسازی است، تضمین میشود که تمامی اجزا به استانداردهای
+        بالاترین کیفیت مطابقت داشته باشند.
+        هدف ما افزایش عمیر کاری تجهیزات و کارخانه های صنعتی است.
+
+        علاوه بر تعمیر و بازسازی ، ما راهکارهای بروزرسانی فناوری نوآورانه برای افزایش کارایی کلی است.
+    </p>
+    
+    <a href="about.html" class="btn style3">خواندن بیشتر</a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    <section class="why-choose-wrap style3 ptb-100 bg-f bg-1">
+    <div class="container">
+    <div class="row gx-5">
+    <div class="col-lg-6">
+    <div class="why-choose-content">
+    
+    <div class="wh-item-wrap style2">
+    <div class="wh-item">
+    <div class="wh-icon">
+    <i class="flaticon-mountain"></i>
+    </div>
+    <div class="wh-text">
+    <h5><a href="services-one.html">
+        هدف</a></h5>
+    <p>
+        شرکت مهندسی کیلاوا برای پایدار ساختن جهان برای نسل‌های آینده با ایجاد راه‌حل‌های بازیافت و استفاده مجدد مسئولانه و اخلاقی با مدیریت و بازپس‌گیری ارزش وجود دارد.
+    </p>
+    </div>
+    </div>
+    <div class="wh-item">
+    <div class="wh-icon">
+    <i class="flaticon-diamond"></i>
+    </div>
+    <div class="wh-text">
+    <h5><a href="services-one.html">
+        چشم انداز</a></h5>
+    <p>
+        با ترویج و رعایت استانداردهای زیست محیطی، اخلاقی، کیفیت، ایمنی و بهداشت داده ها، رهبری جهانی را ارائه دهید.
+    </p>
+    </div>
+    </div>
+    <div class="wh-item">
+    <div class="wh-icon">
+    <i class="flaticon-analytics-1"></i>
+    </div>
+    <div class="wh-text">
+    <h5><a href="services-one.html">
+        ارزش</a></h5>
+    <p>
+        به مشتریان خود راه حل های سفارشی ارائه می کنیم که به آنها امکان می دهد با اطمینان خاطر از اینکه حداکثر ارزش را دریافت خواهند کرد، روی تجارت اصلی خود تمرکز کنند.
+    </p>
+    </div>
+    </div>
+    <div class="wh-item">
+    <div class="wh-icon">
+    <i class="flaticon-analytics-1"></i>
+    </div>
+    <div class="wh-text">
+    <h5><a href="services-one.html">تعهد</a></h5>
+    <p>
+        از ردپای جهانی همیشه سازگار خود برای دسترسی به بازارهای بین المللی برای رشد مسئولانه کسب و کار خود برای کارمندان، مشتریان و شرکای خود استفاده کنید.
+    </p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="col-lg-6">
+    <div class="wh-img bg-f wh-bg-4">
+    <div class="tr-text-wrap">
+    <h2 class="transparent-text">
+    <span>100%</span> شرکت مورد اعتماد
+    </h2>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    <section class="team-wrap pt-100 pb-75">
+    <div class="container">
+    <div class="row mb-40 align-items-center">
+    <div class="col-xl-6">
+    <div class="section-title style1">
+    <span>تیم ما</span>
+    <h2>با اعضای تیم باتجربه حرفه ای ما آشنا شوید</h2>
+    </div>
+    </div>
+    <div class="col-xl-6">
+    <p class="section-para"></p>
+    </div>
+    </div>
+    <div class="row justify-content-center">
+    
+        <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="member-card style1">
+            <a href=""><div class="member-img">
+            <img src="/media/home/service/life-science.jpg" alt="LIFE SCIENCE">
+            </div>
+            <div class="member-info">
+            <h4 class="h4whover">علم زندگی</h4>
+    
+            </div></a>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="member-card style1">
+            <a href=""><div class="member-img">
+            <img src="/media/home/service/pharma.jpg" alt="PHARMACEUTICALS & SUPPLEMENTS">
+            </div>
+            <div class="member-info">
+            <h4 class="h4whover">داروسازی و مکمل ها</h4>
+    
+            </div></a>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="member-card style1">
+            <a href=""><div class="member-img">
+            <img src="/media/home/service/beauty.jpg" alt="COSMETICS & AESTHETICS">
+            </div>
+            <div class="member-info">
+            <h4 class="h4whover">لوازم آرایشی و زیبایی</h4>
+    
+            </div></a>
+            </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="member-card style1">
+            <a href=""><div class="member-img">
+            <img src="/media/home/service/Food-and-Beverage.jpg" alt="FOOD & BEVERAGE">
+            </div>
+            <div class="member-info">
+            <h4 class="h4whover">غذا و نوشیدنی</h4>
+    
+            </div></a>
+            </div>
+        </div>
+        
+    </div>
+    
+    </div>
+    </section>
+
+{% endblock %}

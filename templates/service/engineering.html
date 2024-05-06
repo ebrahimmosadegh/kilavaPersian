@@ -1,0 +1,323 @@
+{% extends 'shared/_MainLayout.html' %}
+{% load static %}
+{% load render_partial %}
+
+{% block title %}Kilava | {{ setting.title_site }}{% endblock %}
+{% block meta_seo %}
+    <meta name="description" content="{{ setting.tag_description }}"/>
+    <meta name="keywords" content="{{ setting.tag_keywords }}">
+    <meta property="og:title" content="{{ setting.title_site }}">
+    <meta property="og:description" content="{{ setting.tag_description }}">
+    <meta property="og:type" content="Experience">
+    <meta property="og:url" content="{{ setting.link_site }}">
+    <meta property="og:image" content="{% static '/media/service/engineering-video.png' %}">
+{% endblock %}
+{% block Header-ref %}
+<link rel="stylesheet" href="{% static 'css/service.css' %}">
+{% endblock %}
+{% block content %}
+
+
+
+
+<div class="content-wrapper">
+    <div class="breadcrumb-wrap bg-f br-1">
+    <div class="overlay bg-vulcan op-9"></div>
+    <div class="container">
+    <div class="row">
+    <div class="col-xl-12">
+    <div class="breadcrumb-title">
+    <h2>خدمات مهندسی</h2>
+    
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    
+    <section class="portfolio-details-wrap ptb-100">
+    
+    <div class="container">
+    <div class="row gx-5">
+    <div class="col-xl-8">
+    <div class="single-portfolio-slider swiper-container">
+    <div class="swiper-wrapper">
+    <div class="swiper-slide">
+    <div class="single-portfolio-item">
+    <img src="/media/service/engineering/ul-booster-pump.jpg" alt="Image">
+    </div>
+    </div>
+    <div class="swiper-slide">
+    <div class="single-portfolio-item">
+    <img src="/media/service/engineering/diesel-generator.jpg" alt="Image">
+    </div>
+    </div>
+    <div class="swiper-slide">
+    <div class="single-portfolio-item">
+    <img src="/media/service/engineering/booster.jpg" alt="Image">
+    </div>
+    </div>
+    </div>
+    <div class="single-portfolio-pagination slider-pagination style2"></div>
+    </div>
+    <div class="portfolio-desc">
+    <h2>Booster Pumps</h2>
+    <p>
+    Boost the performance of your water supply system with our premium range of booster pumps. Designed for efficiency and reliability, our booster pumps ensure optimal water pressure and flow rates for residential, commercial, and industrial applications. Whether you need to enhance water pressure in high-rise buildings, irrigation systems, or firefighting setups, our booster pumps deliver unmatched performance and durability.
+    </p>
+    <p>
+        Boost the performance of your water supply system with our comprehensive range of booster pumps. Designed to enhance water pressure and flow rates, our booster pumps are suitable for a wide range of applications, including:
+    <br/>
+    Residential buildings: Improve water pressure for showers, faucets, and appliances.<br/>
+    Commercial establishments: Ensure adequate water pressure for offices, hotels, restaurants, and shopping centers.<br/>
+    Industrial facilities: Support water distribution systems, fire protection systems, and manufacturing processes.<br/>
+    Irrigation systems: Optimize water delivery for agricultural and landscaping purposes.<br/>
+    Our booster pumps feature:<br/>
+    
+    High-efficiency motors: Reduce energy consumption while maximizing performance.<br/>
+    Durable construction: Built to withstand harsh operating conditions and prolonged use.<br/>
+    Easy installation and maintenance: Streamlined design for hassle-free setup and service.<br/>
+    Choose from our diverse selection of booster pumps to meet your specific requirements and budget.
+    </p>
+    <P>
+            Our booster pumps are engineered to optimize water pressure and ensure consistent flow rates in various applications. Here's a more detailed overview:
+    <br/>
+    Residential Booster Pumps:
+    <br/>
+    Improve water pressure for multi-story homes, apartments, and condominiums.
+    Enhance the performance of showers, faucets, washing machines, and dishwashers.
+    Compact and space-saving designs suitable for installation in utility rooms or basements.<br/>
+    Commercial Booster Pumps:
+    <br/>
+    Support water distribution in office buildings, hotels, restaurants, and educational institutions.<br/>
+    Ensure adequate pressure for restrooms, kitchens, and fire suppression systems.<br/>
+    Multiple pump configurations available for customized solutions based on building size and usage.<br/>
+    Industrial Booster Pumps:<br/>
+    
+    Designed for heavy-duty applications in manufacturing plants, industrial facilities, and process industries.<br/>
+    Handle high-pressure requirements for machinery, cooling systems, and production processes.<br/>
+    Corrosion-resistant materials and robust construction to withstand challenging environments.<br/>
+    Irrigation Booster Pumps:
+    <br/>
+    Optimize water delivery for agricultural irrigation, landscaping, and turf management.<br/>
+    Boost water pressure for sprinkler systems, drip irrigation, and greenhouse operations.<br/>
+    Weatherproof and durable construction suitable for outdoor installations.<br/>
+    Our booster pumps are available in a variety of configurations, including single-stage, multi-stage, variable-speed, and constant-pressure systems, to meet specific performance requirements and application demands.
+    </P>
+    
+    <div class="row justify-content-center">
+    <div class="col-lg-4 col-md-6">
+    <div class="portfolio-item style1">
+    <div class="portfolio-img">
+    <img src="/media/service/engineering/grundfos.jpg" alt="Image">
+    </div>
+    </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+    <div class="portfolio-item style1">
+    <div class="portfolio-img">
+    <img src="/media/service/engineering/logo-ksb-01.jpg" alt="Image">
+     </div>
+    </div>
+    </div>
+    <div class="col-lg-4 col-md-12">
+    <div class="portfolio-item style1">
+    <div class="portfolio-img">
+    <img src="/media/service/engineering/xylem_tag_7704c-01.jpg" alt="Image">
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="row justify-content-center">
+    <div class="col-lg-4 col-md-6">
+    <div class="portfolio-item style1">
+    <div class="portfolio-img">
+    <img src="/media/service/engineering/cummins.png" alt="Image">
+    </div>
+    </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+    <div class="portfolio-item style1">
+    <div class="portfolio-img">
+    <img src="/media/service/engineering/CAT.png" alt="Image">
+     </div>
+    </div>
+    </div>
+    <div class="col-lg-4 col-md-12">
+    <div class="portfolio-item style1">
+    <div class="portfolio-img">
+    <img src="/media/service/engineering/Callaghan.png" alt="Image">
+    </div>
+    </div>
+    </div>
+    </div>
+    <h2>UL Booster Pump</h2>
+    <p>
+    Experience superior water pressure and performance with our UL-listed booster pumps. Designed to meet the stringent quality and safety standards set by UL (Underwriters Laboratories), our UL booster pumps offer exceptional reliability and efficiency. Ideal for boosting water pressure in residential and commercial buildings, our UL-listed pumps ensure consistent performance and compliance with industry regulations.
+    </p>
+    <p>
+        
+        Experience superior water pressure and performance with our UL-listed booster pumps. Certified by Underwriters Laboratories (UL), our pumps meet rigorous safety and quality standards for peace of mind. Ideal for residential, commercial, and industrial applications, our UL booster pumps offer:
+    <br/>
+    Reliable performance: Consistent water pressure and flow rates for demanding environments.<br/>
+    Enhanced safety: UL certification ensures compliance with industry regulations and standards.<br/>
+    Long-lasting durability: Robust construction and quality components for extended service life.<br/>
+    Easy integration: Compatible with existing water supply systems and plumbing infrastructure.<br/>
+    Choose our UL-listed booster pumps for efficient and dependable water distribution solutions.
+    </p>
+    <p>
+        Our UL-listed booster pumps combine safety, reliability, and performance to meet the highest industry standards. Here are the key features of our UL-certified pumps:<br/>
+    
+    Certified Safety:<br/>
+    
+    UL certification ensures compliance with rigorous safety and performance standards.<br/>
+    Enhanced protection against electrical hazards, fire risks, and mechanical failures.<br/>
+    Designed and tested to meet or exceed industry regulations and codes.<br/>
+    Advanced Control and Monitoring:<br/>
+    
+    Built-in diagnostic systems and fault detection mechanisms for early problem identification.<br/>
+    Remote monitoring and control capabilities for real-time performance monitoring and system optimization.<br/>
+    User-friendly interfaces and intuitive controls for easy operation and maintenance.<br/>
+    Application Versatility:<br/>
+    
+    Suitable for a wide range of applications, including residential, commercial, and municipal water systems.<br/>
+    Configurable options for variable-speed operation, pressure regulation, and flow control.<br/>
+    Compatible with various piping systems, valves, and accessories for seamless integration.<br/>
+    Our UL-listed booster pumps offer peace of mind and reliability, making them the ideal choice for demanding water distribution applications in residential, commercial, and industrial settings.<br/>
+        
+    </p>
+    
+    <div class="container">
+    <div class="row gx-5">
+    <div class="col-xl-8">
+    <div class="single-portfolio-slider swiper-container">
+    <div class="swiper-wrapper">
+    <div class="swiper-slide">
+    <div class="single-portfolio-item">
+    <img src="/media/service/engineering/fire-pump.jpg" alt="">
+    </div>
+    </div>
+    <div class="swiper-slide">
+    <div class="single-portfolio-item">
+    <img src="/media/service/engineering/water-pump.jpg" alt="">
+    </div>
+    </div>
+    </div>
+    <div class="single-portfolio-pagination slider-pagination style2"></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    <h2>Diesel Generators</h2>
+    <p>
+    Ensure uninterrupted power supply with our robust diesel generators. Engineered to deliver reliable power in demanding environments, our diesel generators provide backup power solutions for residential, commercial, and industrial settings. With advanced features and superior performance, our diesel generators offer peace of mind during power outages and emergencies.
+    
+    </p>
+    <p>
+        
+        Ensure uninterrupted power supply with our premium range of diesel generators. Engineered for reliability and performance, our diesel generators are suitable for various applications, including:
+    <br/>
+    Emergency backup power: Keep essential systems and appliances running during power outages.<br/>
+    Remote locations: Provide electricity in areas without access to the grid.<br/>
+    Construction sites: Power tools, equipment, and temporary facilities.<br/>
+    Events and outdoor activities: Support lighting, sound systems, and temporary installations.<br/>
+    Key features of our diesel generators include:<br/>
+    
+    High-capacity fuel tanks: Extended runtime for continuous operation during prolonged outages.<br/>
+    Advanced control systems: Automatic startup and shutdown, remote monitoring, and diagnostics.<br/>
+    Quiet operation: Sound-attenuated enclosures for reduced noise levels in residential and urban environments.<br/>
+    Environmental compliance: Low emissions and fuel efficiency to meet regulatory standards.<br/>
+    Trust our diesel generators to deliver reliable backup power when you need it most.
+    </p>
+    <p>
+        Our diesel generators offer reliable backup power solutions for a wide range of applications. Here's a deeper dive into their features and capabilities:<br/>
+    
+    Emergency Backup Power:<br/>
+    
+    Automatic startup and transfer switch functionality for seamless transition during power outages.<br/>
+    Built-in safety features, including overload protection, low oil shutdown, and circuit breaker protection.<br/>
+    Extended runtime options with large fuel tanks or external fuel connections for prolonged outages.<br/>
+    Commercial and Industrial Applications:<br/>
+    
+    Prime power and standby power solutions for businesses, construction sites, and manufacturing facilities.<br/>
+    High-performance engines and alternators for continuous and heavy-duty operation.<br/>
+    Remote monitoring and control capabilities for proactive maintenance and troubleshooting.<br/>
+    Portable and Trailer-Mounted Generators:<br/>
+    
+    Compact and mobile designs for on-the-go power needs at events, outdoor venues, and remote job sites.<br/>
+    Easy transportation and setup with integrated lifting points, towable trailers, and wheel kits.<br/>
+    Quiet operation and sound-attenuated enclosures for noise-sensitive environments.<br/>
+    Our diesel generators are available in a wide range of power outputs, from portable units suitable for residential backup power to industrial-grade systems for critical infrastructure and large-scale projects.
+        
+    </p>
+    <div class="row justify-content-center">
+    <div class="col-lg-4 col-md-6">
+    <div class="portfolio-item style1">
+    <div class="portfolio-img">
+    <img src="/media/service/engineering/cummins.png" alt="Image">
+    </div>
+    </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+    <div class="portfolio-item style1">
+    <div class="portfolio-img">
+    <img src="/media/service/engineering/VOLVO.jpg" alt="Image">
+     </div>
+    </div>
+    </div>
+    <div class="col-lg-4 col-md-12">
+    <div class="portfolio-item style1">
+    <div class="portfolio-img">
+    <img src="/media/service/engineering/generac.png" alt="Image">
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    
+    
+    </div>
+    
+    
+    </div>
+    <div class="col-xl-4">
+    <div class="sidebar">
+    
+    <div class="sidebar-widget contact-widget bg-f hero-bg-1">
+    <div class="overlay bg-vulcan op-9"></div>
+    <p>بیایید با هم کار کنیم</p>
+    <h3>به اجرای یک پروژه موفق نیاز دارید؟</h3>
+    <a href="tel:+971508505101" style="direction:ltr">+971 50 850 5101</a>
+    <a href="" class="btn style3">تماس با ما</a>
+    </div>
+    <div class=" sidebar-widget schedule-widget sidebar-widget">
+    <ul class="list-style">
+    <li>
+     <p>پنجشنبه</p>
+    <p>8:00 AM - 1:00 PM</p>
+    </li>
+    <li>
+    <p>شنبه-چهارشنبه</p>
+    <p>8:00 AM - 5:00 PM</p>
+    </li>
+    <li>
+    <p>جمعه</p>
+    <p>تعطیل</p>
+    </li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    
+    </div>
+    
+    {% block Footer-ref %}
+    <script src="{% static 'js/main.js' %}"></script>
+    {% endblock %}
+
+{% endblock %}
